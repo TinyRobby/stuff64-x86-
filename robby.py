@@ -1,0 +1,12 @@
+import os
+os.system('g++ -Wall -o "game" "stuff/.cpp"')
+print('good.')
+os.system('sleep 2')
+print('looking for user data.')
+os.system('sleep 1 && clear')
+print('looking for user data..')
+os.system('sleep 1 && clear')
+print('looking for user data...')
+print('no dataa found. creating new dta file.')
+dta=open('main.dta', 'w')
+dta.write('1000101001010101100101011010100110010010101010101010010100000000010000010101000101010101000000001010101001010110101000000100101010101010101010101010')
