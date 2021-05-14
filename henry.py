@@ -1,12 +1,21 @@
+import os
 print('hello henry')
 print("type where you want to go")
 a=input()
+if a=="python stuff64":
+  print("stuff")
+if a=="stuff64":
+  os.system("chmod +x stuff64.draw && ./stuff64.draw")
 if a=='typing':
   print("finding typing...")
   print("typing found")
   secretword=input()
-  cat=open('h.txt', 'x')
-  cat.write(secretword)
+  print("do you want to save to file y/n (this will erase anything you saved there and open anthor screen)")
+  file=input()
+
+  if file=='y':
+    cat=open('h.md', 'w')
+    cat.write(secretword)
   if secretword=='cats are the best pet in the world':
     print("welcome to games")
     print("what game")
@@ -30,3 +39,4 @@ if a=='typing':
       print("i agree " , c)
       print("eat it")
       print("game finishd")
+      

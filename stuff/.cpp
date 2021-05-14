@@ -5,9 +5,9 @@
 using namespace std;
 using namespace stooph;
 
-int main() {
+int main( int argc,) {
     cout << "hello my friends" << endl;
-    char mop='x';
+    char mop;
     cout << "enter a char" << endl;
     cin >> mop;
     cout << mop << " is good." << endl;
